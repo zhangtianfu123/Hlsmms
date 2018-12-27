@@ -1,0 +1,187 @@
+/* -------------------公共样式------------------ */
+a{
+    color: pink;
+    text-decoration: none;
+   
+}
+
+
+
+/* ----------------------------左侧栏的样式-------------------------- */
+/* 左侧栏 */
+.el-aside {
+    color: #333;
+    background:url("./imgaes/leftbg.png") repeat-y;
+   
+}
+/* 菜单栏 */
+.el-menu{
+    background-color:transparent;
+    border: none;
+    width: 206px;
+    margin-left: 22px;
+}
+/* 子菜单 */
+.el-menu--inline{
+    margin-left:0px;
+}
+/* 焦点样式 */
+.el-menu-item:hover, .el-menu-item:focus{
+    background: #fff;
+     /* height: 33px;
+    line-height: 33px; */
+    border-radius: 5px 0 0 5px; 
+    /* margin-bottom: 20px; */
+}
+/* 激活样式 */
+.el-menu-item.is-active{
+   
+    font-weight: bold;
+   
+
+}
+/* 子菜单的大小 */
+.el-submenu .el-menu-item{
+    height: 33px;
+    line-height: 33px;
+    color:pink;
+    text-align: right;
+    opacity:0.7;
+    
+}
+
+
+
+/* 标题 */
+.el-submenu__title{
+    /* 字体颜色 */
+    color:#fff;
+    /* 引入标题背景色 */
+    background:url("./imgaes/leftmenu.png") repeat-x;
+    /* 调节标签的高和行高 */
+    height: 33px;
+    line-height: 33px;
+    margin-bottom: 10px;
+    border-radius: 5px 0 0 5px;
+    text-align: right;
+    
+}
+.el-menu-item-group__title{
+    padding:0px 0px 0px 20px;
+}
+.el-icon-arrow-down{
+    /* 隐藏标签 */
+    display:none;
+}
+/* 左侧头部标签 */
+.title{
+    color:#fff;
+    text-align: right;
+    padding-right: 22px;
+    font-size: 12px;
+}  
+.title h1{
+    font-size:24px;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  /* ------------------------------头尾--------------------------- */
+  .el-header,
+  .el-footer {
+    background:#f9f9f9;
+     text-align: left;
+    
+    
+    }
+    .el-header{
+        padding-top:22px;
+    }
+    .el-header h1{
+        font-size:22px;
+        color:#000;
+        margin:0px;
+        
+    }
+    .el-header p{
+        line-height: 50px;
+        margin:0px;
+    }
+    .el-footer p{
+        line-height: 50px;
+        border-top:1px solid #ccc;
+        margin:0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+  /* ------------------------------首页中间内容--------------------------- */
+  .el-main{
+      height: 100%;
+      overflow-y: scroll;
+      max-height: 420px;
+
+  }
+  .el-main .el-card__header {
+      /* 渐变颜色 (上，下)从上到下*/
+    background: linear-gradient(#fff,#666);
+    padding : 10px 20px
+  }
+  .el-main .el-card__header h3{
+      margin:0;
+  }
+  .el-main .el-alert{
+      margin-bottom: 8px;
+      background: #dbe3ff;
+      color:#585b66;
+  }
+  .el-main .el-alert__icon{
+      color:#3560d8;
+  }
+  /* .el-container {
+      height: 100%;
+  } */
+  /* 主题布局内容cs3 */
+  #mainContent{
+      /* 伸缩布局 */
+      display: flex;
+      /* 开启换行 */
+      flex-wrap: wrap;
+  }
+  #mainContent>*{width: 100%;}
+
+
+
+
+  /* -----------------------------用户添加样式------------------------------- */
+  .el-form-item{
+      margin:0px;
+      /* height: 60px; */
+      /* line-height: 60px; */
+  }
+  /* input框 */
+  .el-input__inner{
+      width: 300px;
+      height: 40px;
+  }
+  .el-form-item__label{
+      line-height: 18px;
+      margin-top:10px;
+  }
+  
